@@ -1,0 +1,199 @@
+/*==============================================================================
+ * Main documentation style sheet for the HTMLTTChess package
+ *
+ * Copyright (C) 2007-2016  Michael Peeters <https://github.com/xeyownt>
+ *
+ * This file is part of the HTMLTTChess package 
+ * <https://github.com/xeyownt/htmlttchess>.
+ *
+ * HTMLTTChess is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * HTMLTTChess is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ *
+ *==============================================================================
+ */
+
+@font-face {
+    font-family: 'Chess Merida Unicode';
+    src: url(chess_merida_unicode.ttf);
+}
+
+#leftpane {
+    clear: left;
+    float: left;
+    width: 10.5em;
+    margin-top: 0ex;
+    margin-right: 1ex;
+    margin-bottom: 0;
+    margin-left: 1ex;
+    padding: 0 0 0 0;
+}
+
+#leftpane p, #leftpane li {
+	font-size: 0.8em;
+    text-align: justify;
+}
+
+#leftpane ul {
+    margin: 0;
+    padding: 0 1em;
+}
+
+#leftpane h2 {
+	font-size: 1em;
+	font-weight:bold;
+	border-bottom: #5A87C3 2px dotted;
+	color: #5A87C3;
+}
+
+#content {
+    text-align: justify;
+    margin: 0 0 0 12em;
+    padding: 0 4% 0 4%;
+    border-left: 2px solid #007664;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+#content h1, #content h2, #content div.footnote  {
+	margin-left: -3%;
+}
+
+#content h1 {
+	color: #007664;
+	border-bottom: #007664 solid 2px;
+}
+
+#content h2{
+	font-family: arial, helvetica, verdana;
+	color: #5A87C3;
+	border-bottom: #5A87C3 dotted 2px;
+}
+
+#content h3{
+	color: #CC0057;
+	border-bottom: #CC0057 solid 1px;
+}
+
+#content h4{
+	color: black;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#content p, #content li {
+	text-align: justify;
+}
+
+#content li {
+	margin: 0.2em 0em;
+}
+
+#content pre {
+	color: green;
+	white-space: pre;
+	font-family: "Bitstream Vera Sans Mono", "Courier New", monospace;
+	font-size: 0.8em;
+	border: red dotted 1px;
+	margin: 0% 5%;
+	padding: 10px 10px;
+	overflow: auto;
+}
+
+#content table.table1  {
+	margin-left: 5%;
+	border: none;
+}
+
+#content table.table1 td {
+	border: none;
+}
+
+#content table.table2  {
+	border-collapse: collapse;
+	border: hidden;
+	margin-left: 5%;
+}
+
+#content table.table2 td, #content table.table2 th {
+	border: #CC0057 1px solid;
+	padding: 10px 10px;
+}
+
+#content table.table2 th {
+	font-weight: bold;
+}
+
+#content table.keymap  {
+	border-collapse: collapse;
+	border: hidden;
+	margin-left: 5%;
+	empty-cells: show;
+}
+
+#content table.keymap .new {
+	background-color: #FFC;
+}
+
+#content table.keymap td.c {
+	border: #CC0057 1px solid;
+	border-right: none;
+	font: 1.4em "Chess Merida Unicode";
+	color: black;
+	padding: 2px 5px 2px 10px
+}
+
+#content table.keymap td {
+	border: #CC0057 1px solid;
+	border-left: none;
+	font-family: monospace;
+	color: blue;
+	padding: 2px 10px 2px 5px;
+	text-align: center;
+}
+
+#content table.keymap th {
+	border: #CC0057 1px solid;
+	text-align: left;
+	padding: 2px 5px;
+}
+
+#content code {
+	font-family: monospace;
+	background-color: #EEE;
+	font-size: 1em;
+}
+
+#content code.kw {
+	font-weight: bold;
+}
+
+#content var {
+	font-style: italic;
+	font-weight: bold;
+}
+
+#content em {
+	color: #CC0057;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#footnote {
+	clear: left;
+	border-top: #007664 2px solid;
+	margin-top: 20px;
+}
+
